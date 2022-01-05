@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray-050: #fafbfc;
+  --gray-300: #b2b5b9;
+  --green-500: #27b648;
+}
 html,
 body {
   padding: 0;
@@ -13,4 +24,81 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.comment,
+.font-mono {
+  font-family: ui-monospace,SF-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+}
+.inter {
+  font-family: 'Mandali', sans-serif;
+}
+
+
+.comment::before {
+  content: "// ";
+}
+
+.before-screen::before {
+  content: " ";
+    background: linear-gradient(90deg, rgba(132,103,243, .5) 50%, rgba(161,139,245, .25) 100%);
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-48px);
+    box-shadow:
+    inset -20px -20px 10px 10px rgba(34, 26, 64, 0.1),
+      inset 0 75px 65px 30px rgba(34, 26, 64, .1),
+      inset 0 30px 30px 30px rgba(7, 5, 12, .07),
+      inset 0 15px 30px 30px rgba(0, 0, 0, .06),
+      -20px -20px 10px 10px rgba(34, 26, 64, 0.1),
+      0 75px 65px 30px rgba(34, 26, 64, .1),
+      0 30px 30px 30px rgba(7, 5, 12, .07),
+      0 15px 30px 30px rgba(0, 0, 0, .06),
+      0 10px 8px 0px rgba(0, 0, 0, .05);
+    border-radius: 8px;
+    opacity: .15;
+    mix-blend-mode: multiply;
+}
+
+@media (min-width:1280px) {
+  .before-screen::before {
+    height: 145%;
+  }
+}
+.bg-custom-grad {
+  background: linear-gradient(180deg, #1A1B21 50%, #30313A 50%);
+}
+.bg-custom-grad-purple {
+  background: linear-gradient(352deg, rgba(26,27,33,1) 60%, rgba(38,34,60,1) 85%, rgba(50,41,86,1) 120%, rgba(75,57,144,1) 100%);
+}
+.button-box-shadow {
+  box-shadow: 0 75px 65px 0px rgba(0,0,0,0.09),
+  0 30px 30px 0px rgba(0,0,0,0.07),
+  0 15px 15px 0px rgba(0,0,0,0.06),
+  0 10px 8px 0px rgba(0,0,0,0.05),
+  0 4px 4px 0px rgba(0,0,0,0.04),
+  0 2px 2px 0px rgba(0,0,0,0.03);
+}
+
+.filter-shadow {
+  filter:drop-shadow(2px 6px 4px rgba(0,0,0,0.3));
+}
+
+.filter-glow {
+  filter:
+    drop-shadow(0px 1px 5px rgba(255, 255, 255, 0.5))
+    blur(1.5px);
+}
+
+a:hover  .arrow-hover {
+  transform: translateX(4px);
+}
+.transform-scale:hover {
+  transform: scale(1.01);
+}
+
+input::placeholder{
+  color: var(--gray-050);
 }
