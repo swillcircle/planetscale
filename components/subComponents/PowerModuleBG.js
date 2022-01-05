@@ -1,6 +1,6 @@
 const PowerModuleBG = () => {
   return (
-    <svg className="max-h-fit h-auto max-w-full" height="521" viewBox="0 0 769 521" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="h-auto max-w-full" height="521" viewBox="0 0 769 521" fill="none" xmlns="http://www.w3.org/2000/svg">
       <mask id="mask0_107_1102" maskUnits="userSpaceOnUse" x="0" y="0" width="769" height="521">
       <rect width="769" height="521" fill="#C4C4C4"/>
       </mask>

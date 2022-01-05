@@ -1,7 +1,7 @@
 const Scalesection = () => {
   return (
     <section className="relative pt-60 pb-56 bg-gray-900 px-6">
-      <div className="container relative flex flex-col justify-between mx-auto mt-3 pl-8">
+      <div className="container relative flex flex-col justify-between mx-auto mt-3">
         <div className="relative flex flex-col lg:flex-row justify-between items-center">
           <div className="relative lg:ml-auto">
             <div className="relative py-7 lg:pr-4 2xl:pr-7 mx-auto">
