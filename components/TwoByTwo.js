@@ -66,13 +66,13 @@ const TwoByTwo = () => {
         <div className="relative grid grid-cols-1 lg:grid-cols-12 2xl:flex">
           <div className="relative order-2 lg:col-span-7 lg:pr-4 lg:order-1 max-h-[550px]">
             <div className="relative grid grid-cols-1 items-center justify-items-center">
-              <div className="z-10 col-start-1 col-end-1 row-start-1 row-end-1">
+              <div className="z-10 w-full col-start-1 col-end-1 row-start-1 row-end-1">
                 <PowerModuleBG/>
               </div>
               <div className="relative z-20 grid grid-cols-3 col-start-1 col-end-1 row-start-1 row-end-1 px-12 gap-x-2 md:px-24 sm:gap-x-4 lg:px-16 lg:gap-x-3 xl:px-24 xl:gap-x-4">
-                <BoatWheel />
-                <MySQLSVG />
-                <VpScale />
+               <div> <BoatWheel /></div>
+                <div><MySQLSVG /></div>
+                <div><VpScale /></div>
               </div>
             </div>
           </div>
