@@ -1,6 +1,6 @@
 const DeploySVGbg = () => {
   return (
-        <svg className="max-w-full max-h-fit h-auto" height="219" viewBox="0 0 617 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="max-w-full h-auto" height="219" viewBox="0 0 617 219" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g opacity="0.4">
           <circle cx="16.5972" cy="16" r="14" stroke="#40D763" strokeWidth="2"/>
           <path d="M22.0972 12.5L14.5972 20L11.1881 16.5909" stroke="#40D763" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
