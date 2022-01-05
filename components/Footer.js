@@ -1,5 +1,5 @@
 import LogoSVG from './subComponents/LogoSVG'
-import FacebookSVG from './subComponents/FacebookSVG'
+
 import TwitterSVG from './subComponents/TwitterSVG'
 import LinkedInSVG from './subComponents/LinkedInSVG'
 
@@ -99,9 +99,7 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-6 sm:flex sm:justify-between sm:flex-row text-xs pt-16 sm:pt-4">
         <div className='flex text-gray-400 mt-auto col-start-2 col-end-5 col-span-6'>
-          <a href="https://www.facebook.com/planetscaledata/">
-            <FacebookSVG/>
-          </a>
+
           <a href="https://twitter.com/planetscaledata" className=' px-4'>
             <TwitterSVG/>
           </a>
