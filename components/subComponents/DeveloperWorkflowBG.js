@@ -1,6 +1,6 @@
 const DeveloperWorkflowBG = () => {
   return (
-    <svg className="max-w-full h-auto" height="489" viewBox="0 0 386 489" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="max-w-full h-auto" viewBox="0 0 386 489" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_f_101_1023)">
     <ellipse cx="124.5" cy="142.75" rx="19.5" ry="18.6677" fill="#A18BF5"/>
     </g>
