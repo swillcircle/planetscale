@@ -1,5 +1,5 @@
 import LogoSVG from './subComponents/LogoSVG'
-import FacebookSVG from './svg/FaceBookSVG'
+import FacebookSVG from './subComponents/FacebookSVG'
 import TwitterSVG from './subComponents/TwitterSVG'
 import LinkedInSVG from './subComponents/LinkedInSVG'
 
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
 <footer className="text-primary bg-gray-900 bg-primary pt-20 pb-8 px-6 lg:px-24 xl:px-56">
     <div className="container mx-auto">
-      <div className="text-gray-100 grid grid-cols-6 gap-y-8">
+      <div className="text-gray-100 grid grid-cols-6 gap-x-4 gap-y-8">
         <div className="text-gray-50 col-span-2 col-start-2 sm:col-auto">
           <LogoSVG/>
         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="text-xs col-span-3  sm:col-span-1">
+        <div className="text-xs col-span-2 col-start-4  sm:col-span-1">
           <h6 className="text-sm font-semibold text-gray-400 pb-5">Products</h6>
           <ul>
           <li className='pb-3'>
@@ -74,7 +74,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="text-xs col-span-3  sm:col-span-1">
+        <div className="text-xs col-span-2 col-start-4  sm:col-span-1">
           <h6 className="text-sm font-semibold text-gray-400 pb-5">Support</h6>
           <ul>
             <li className='pb-3'>
@@ -99,13 +99,13 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-6 sm:flex sm:justify-between sm:flex-row text-xs pt-16 sm:pt-4">
         <div className='flex text-gray-400 mt-auto col-start-2 col-end-5 col-span-6'>
-          <a href="https://www.facebook.com/planetscaledata/">
+          <a href="">
             <FacebookSVG/>
           </a>
-          <a href="https://twitter.com/planetscaledata" className=' px-4'>
+          <a href="" className=' px-4'>
             <TwitterSVG/>
           </a>
-          <a href="https://www.linkedin.com/company/planetscale/">
+          <a href="">
             <LinkedInSVG/>
           </a>
         </div>

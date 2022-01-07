@@ -19,11 +19,11 @@ const TwoByTwo = () => {
       <div className="container mx-auto">
         {/* Section One  */}
         <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64">
-          <div className="relative order-2 lg:order-1 2xl:mr-32">
+          <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible">
             <div className="absolute z-10 hidden sm:block">
               <DeploySVGbg/>
             </div>
-            <div className="relative z-20 sm:pt-20 sm:pl-28">
+            <div className="relative z-20 sm:pt-20 sm:pl-28 overflow-visible">
               <DeploySVG/>
             </div>
           </div>
@@ -39,7 +39,7 @@ const TwoByTwo = () => {
           </div>
         </div>
         {/* Two  */}
-        <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 px-6 lg:pb-64">
+        <div className="relative grid grid-cols-1 pb-24 lg:grid-cols-2 lg:pb-64">
           <div className="order-1 pb-24 lg:pb-0 lg:ml-20 lg:mr-4">
             <div>
               <ScalingIcon />
@@ -63,8 +63,8 @@ const TwoByTwo = () => {
           </div>
         </div>
         {/* Three  */}
-        <div className="relative grid grid-cols-1 lg:grid-cols-12 2xl:flex">
-          <div className="relative order-2 lg:col-span-7 lg:pr-4 lg:order-1 max-h-[550px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 2xl:flex">
+          <div className="order-2 lg:col-span-7 lg:pr-4 lg:order-1 max-w-[840px]">
             <div className="relative grid grid-cols-1 items-center justify-items-center">
               <div className="z-10 w-full col-start-1 col-end-1 row-start-1 row-end-1">
                 <PowerModuleBG/>
@@ -76,7 +76,7 @@ const TwoByTwo = () => {
               </div>
             </div>
           </div>
-          <div className="order-1 pb-24 px-6 lg:col-span-5 lg:order-2  lg:pb-0 2xl:max-w-[510px]">
+          <div className="order-1 pb-24 lg:col-span-5 lg:order-2  lg:pb-0 2xl:max-w-[510px]">
             <div>
               <GearIcon />
             </div>

@@ -34,8 +34,6 @@ export default function Home() {
         <PricingContact/>
         <Footer/>
       </div>
-      <footer className=''>
-      </footer>
     </div>
   )
 }

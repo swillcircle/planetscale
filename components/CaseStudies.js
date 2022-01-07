@@ -5,7 +5,7 @@ import CheckMark from './subComponents/CheckMark'
 
 const CaseStudies = () => {
   return (
-  <section className="relative bg-gray-800 py-48 sm:py-36 px-6 lg:pb-28">
+  <section className="relative bg-gray-800 pb-48 sm:py-36 px-6 lg:pb-28">
     <div className="container mx-auto lg:px-24">
       <h3 className="text-lg text-center text-purple-400 comment">Case studies</h3>
       <h4 className="text-[54px] text-center text-gray-50 inter pb-16 leading-none">What are we doing <span className="text-gray-400">for our customers</span></h4>
