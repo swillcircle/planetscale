@@ -1,5 +1,5 @@
 import LogoSVG from './subComponents/LogoSVG'
-import FacebookSVG from './subComponents/FacebookSVG'
+import FacebookSVG from './svg/FacebookSVG'
 import TwitterSVG from './subComponents/TwitterSVG'
 import LinkedInSVG from './subComponents/LinkedInSVG'
 
