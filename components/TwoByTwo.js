@@ -18,7 +18,7 @@ const TwoByTwo = () => {
     <section className="relative bg-gray-800 px-6 py-48 sm:py-36 lg:pt-64">
       <div className="container mx-auto">
         {/* Section One  */}
-        <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64">
+        <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64 overflow-visible">
           <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible">
             <div className="absolute z-10 hidden sm:block">
               <DeploySVGbg/>
