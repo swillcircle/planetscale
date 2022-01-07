@@ -19,7 +19,7 @@ const TwoByTwo = () => {
       <div className="container mx-auto">
         {/* Section One  */}
         <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64 overflow-visible">
-          <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible">
+          <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible button-box-shadow">
             <div className="absolute z-10 hidden sm:block">
               <DeploySVGbg/>
             </div>
