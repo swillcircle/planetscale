@@ -1,7 +1,5 @@
-import LogoSVG from './subComponents/LogoSVG'
-import FaceBookLogo from './subComponents/FaceBookLogo'
-import TwitterSVG from './subComponents/TwitterSVG'
-import LinkedInSVG from './subComponents/LinkedInSVG'
+import SVG from 'react-inlinesvg'
+
 
 const Footer = () => {
   return (
@@ -9,7 +7,7 @@ const Footer = () => {
     <div className="container mx-auto px-6">
       <div className="text-gray-100 grid grid-cols-6 gap-x-4 gap-y-8">
         <div className="text-gray-50 col-span-2 col-start-1 sm:col-auto">
-          <LogoSVG/>
+          <SVG src='/svg/PlanetSclLogo.svg'/>
         </div>
         <div className="text-xs col-span-2 col-start-1  sm:col-span-1">
           <h6 className="text-sm font-semibold text-gray-400 pb-5">Company</h6>
@@ -100,13 +98,13 @@ const Footer = () => {
       <div className="grid grid-cols-6 sm:flex sm:justify-between sm:flex-row text-xs pt-16 sm:pt-4">
         <div className='flex text-gray-400 mt-auto col-start-1 col-end-6'>
           <a href="">
-            <FaceBookLogo/>
+            <SVG src='/svg/FaceBook.svg'/>
           </a>
           <a href="" className=' px-4'>
-            <TwitterSVG/>
+            <SVG src='/svg/Twitter.svg'/>
           </a>
           <a href="">
-            <LinkedInSVG/>
+            <SVG src='/svg/LinkedIn.svg'/>
           </a>
         </div>
         <div className='relative col-start-1  col-span-6 mt-10'>

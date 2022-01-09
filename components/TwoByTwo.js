@@ -1,16 +1,4 @@
-import DeploySVG from './subComponents/DeploySVG'
-import DeploySVGbg from './subComponents/DeploySVGbg'
-import WorkflowIcon from './subComponents/WorkflowIcon'
-import ScalingIcon from './subComponents/ScalingIcon'
-import DeveloperWorkflowBG from './subComponents/DeveloperWorkflowBG'
-import DeveloperWorkflowMid from './subComponents/DeveloperWorkflowMid'
-import DeveloperWorkflowFrt from './subComponents/DeveloperWorkflowFrt'
-import PowerModuleBG from './subComponents/PowerModuleBG'
-
-import GearIcon from './subComponents/GearIcon'
-import VpScale from './subComponents/VpScale'
-import MySQLSVG from './subComponents/MySQLSVG'
-import BoatWheel from './subComponents/BoatWheel'
+import SVG from 'react-inlinesvg'
 
 
 const TwoByTwo = () => {
@@ -19,17 +7,17 @@ const TwoByTwo = () => {
       <div className="container mx-auto">
         {/* Section One  */}
         <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64 overflow-visible">
-          <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible button-box-shadow">
+          <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible">
             <div className="absolute z-10 hidden sm:block">
-              <DeploySVGbg/>
+              <SVG src='/svg/Deploybg.svg'/>
             </div>
-            <div className="relative z-20 sm:pt-20 sm:pl-28 overflow-visible">
-              <DeploySVG/>
+            <div className="relative z-20 sm:mt-20 sm:ml-28 overflow-visible button-box-shadow">
+              <SVG src='/svg/DeployFrt.svg'/>
             </div>
           </div>
           <div className="order-1 pb-24 lg:pb-0 lg:order-2 lg:ml-32 lg:mr-4 xl:max-w-[410px]">
             <div>
-              <WorkflowIcon />
+              <SVG src='/svg/WorkflowIcon.svg'/>
             </div>
             <div>
               <p className="text-base md:text-lg text-yellow-200 font-mono mt-8 mb-6">Developer Workflow</p>
@@ -42,7 +30,7 @@ const TwoByTwo = () => {
         <div className="relative grid grid-cols-1 pb-24 lg:grid-cols-2 lg:pb-64">
           <div className="order-1 pb-24 lg:pb-0 lg:ml-20 lg:mr-4">
             <div>
-              <ScalingIcon />
+              <SVG src='/svg/ScalingIcon.svg'/>
             </div>
             <div>
               <p className="text-base md:text-lg text-yellow-200 font-mono mt-8 mb-6">Horizontal Scaling</p>
@@ -52,13 +40,13 @@ const TwoByTwo = () => {
           </div>
           <div className="relative order-2 grid grid-cols-12 grid-rows-5 max-h-[400px] lg:max-h-[550px]">
             <div className="z-10 col-start-1 col-end-6 row-start-1 row-end-4 ml-[-50px]">
-              <DeveloperWorkflowBG/>
+              <SVG src='/svg/DeveloperWorkflowBG.svg'/>
             </div>
             <div className="z-20 col-start-3 col-end-10 row-start-2 row-end-4 mt-4 ml-0 md:mt-12 md:ml-4 lg:mt-4 lg:ml-4">
-              <DeveloperWorkflowMid/>
+              <SVG src='/svg/DeveloperWorkflowMid.svg'/>
             </div>
             <div className="z-30 col-start-3 col-end-13 row-start-2 row-end-5 mt-16 ml-12 md:mt-24 md:ml-16 lg:mt-16 lg:ml-16">
-              <DeveloperWorkflowFrt/>
+              <SVG src='/svg/DeveloperWorkflowFrt.svg'/>
             </div>
           </div>
         </div>
@@ -67,18 +55,24 @@ const TwoByTwo = () => {
           <div className="order-2 lg:col-span-7 lg:pr-4 lg:order-1 max-w-[840px]">
             <div className="relative grid grid-cols-1 items-center justify-items-center">
               <div className="z-10 w-full col-start-1 col-end-1 row-start-1 row-end-1">
-                <PowerModuleBG/>
+                <SVG src='/svg/PowerModuleBG.svg'/>
               </div>
               <div className="relative z-20 grid grid-cols-3 col-start-1 col-end-1 row-start-1 row-end-1 px-12 gap-x-2 md:px-24 sm:gap-x-4 lg:px-16 lg:gap-x-3 xl:px-24 xl:gap-x-4">
-               <div> <BoatWheel /></div>
-                <div><MySQLSVG /></div>
-                <div><VpScale /></div>
+              <div>
+                <SVG src='/svg/BoatWheel.svg'/>
+              </div>
+                <div>
+                  <SVG src='/svg/MySQL.svg'/>
+                </div>
+                <div>
+                  <SVG src='/svg/VpScale.svg'/>
+                </div>
               </div>
             </div>
           </div>
           <div className="order-1 pb-24 lg:col-span-5 lg:order-2  lg:pb-0 2xl:max-w-[510px]">
             <div>
-              <GearIcon />
+              <SVG src='/svg/GearIcon.svg'/>
             </div>
             <div>
               <p className="text-base md:text-lg text-yellow-200 font-mono mt-8 mb-6">Reliability</p>

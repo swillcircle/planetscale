@@ -1,6 +1,5 @@
 import SVG from 'react-inlinesvg'
 
-import LogoSVG from './subComponents/LogoSVG'
 
 const Navbar = () => {
   return (
@@ -8,8 +7,7 @@ const Navbar = () => {
       <header className="container relative flex items-center justify-between mx-auto">
         <div className="relative z-50 mr-4">
           <a className="text-gray-50" href="#">
-          {/* <SVG src='./svg/PlanetSclLogo.svg'/> */}
-          <LogoSVG/>
+          <SVG src='/svg/PlanetSclLogo.svg'/>
           </a>
         </div>
         <nav className="transition absolute z-40 lg:bg-transparent top-12 lg:relative lg:top-0 flex items-center justify-between pointer-events-none opacity-0 lg:opacity-100 lg:pointer-events-auto">

@@ -1,7 +1,5 @@
-import SlackSVG from './subComponents/SlackSVG'
-import SquareSVG from './subComponents/SquareSVG'
-import NewWindow from './subComponents/NewWindow'
-import CheckMark from './subComponents/CheckMark'
+import SVG from 'react-inlinesvg'
+
 
 const CaseStudies = () => {
   return (
@@ -14,24 +12,24 @@ const CaseStudies = () => {
           <div className="relative h-full bg-gradient-to-b from-purple-500 via-purple-600 to-purple-700 px-12 pt-8 pb-8 rounded-[3px] ">
             <a href="">
               <div className="flex justify-between text-gray-50 pb-9">
-                <SquareSVG/>
-                <NewWindow />
+                <SVG src='/svg/Square.svg'/>
+                <SVG src='/svg/NewWindow.svg'/>
               </div>
               <div className="flex text-gray-50">
                 <div>
-                  <CheckMark/>
+                  <SVG src='/svg/CheckMark.svg'/>
                 </div>
                 <p className="text-xl text-gray-50">Enabled ‘near unlimited scale’ for Cash App</p>
               </div>
               <div className="flex  text-gray-50 pt-4">
                 <div>
-                  <CheckMark/>
+                  <SVG src='/svg/CheckMark.svg'/>
                 </div>
                 <p className="text-xl text-gray-50">Only 5% of the system had to be changed to implement Vitess</p>
               </div>
               <div className="flex  text-gray-50 pt-4">
                 <div>
-                  <CheckMark/>
+                  <SVG src='/svg/CheckMark.svg'/>
                 </div>
                 <p className="text-xl text-gray-50">10 shard splits a week with less than 1 second of downtime</p>
               </div>
@@ -42,24 +40,24 @@ const CaseStudies = () => {
           <div className="h-full bg-gray-800 px-12 pt-8 pb-12 rounded-[3px]">
             <a href="">
                 <div className="flex justify-between text-gray-300 pb-9">
-                  <SlackSVG/>
-                  <NewWindow />
+                  <SVG src='/svg/Slack.svg'/>
+                  <SVG src='/svg/NewWindow.svg'/>
                 </div>
                 <div className="flex  text-green-500">
                   <div>
-                    <CheckMark/>
+                    <SVG src='/svg/CheckMark.svg'/>
                   </div>
                   <p className="text-xl text-gray-300">~500,000 queries per second at peak times</p>
                 </div>
                 <div className="flex  text-green-500 pt-4">
                   <div>
-                    <CheckMark/>
+                    <SVG src='/svg/CheckMark.svg'/>
                   </div>
                   <p className="text-xl text-gray-300 ">Added connection latency with Vitess is only around 1 millisecond on average</p>
                 </div>
                 <div className="flex  text-green-500 pt-4">
                   <div>
-                    <CheckMark/>
+                    <SVG src='/svg/CheckMark.svg'/>
                   </div>
                   <p className="text-xl text-gray-300">~20 billion total queries per day</p>
                 </div>

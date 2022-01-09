@@ -1,11 +1,4 @@
-import Github from './subComponents/Github'
-import NewRelic from './subComponents/NewRelic'
-import Airbnb from './subComponents/Airbnb'
-import SlackSVG from './subComponents/SlackSVG'
-import SquareSVG from './subComponents/SquareSVG'
-import Figma from './subComponents/Figma'
-import Community from './subComponents/Community'
-import Affirm from './subComponents/Affirm'
+import SVG from 'react-inlinesvg'
 
 const Logosection = () => {
   return (
@@ -14,28 +7,28 @@ const Logosection = () => {
       <h3 className="mb-6 text-base font-normal text-center text-gray-400 heading-base">Trusted by</h3>
       <div className="grid items-center justify-center grid-cols-2 mx-auto gap-x-2 sm:px-10 lg:grid-cols-4 sm:gap-x-10 gap-y-10 text-gray-50">
         <div className="mr-auto sm:mx-auto py-4 lg:py-6">
-          <Github/>
+          <SVG src='/svg/Github.svg'/>
         </div>
         <div className="ml-auto sm:mx-auto py-4 lg:py-6">
-          <NewRelic/>
+          <SVG src='/svg/NewRelic.svg'/>
         </div>
         <div className="mr-auto sm:mx-auto py-4 lg:py-6">
-          <SlackSVG />
+          <SVG src='/svg/Slack.svg'/>
         </div>
         <div className="ml-auto sm:mx-auto py-4 lg:py-6">
-          <SquareSVG />
+          <SVG src='/svg/Square.svg'/>
         </div>
         <div className="mr-auto sm:mx-auto py-4 lg:py-6">
-          <Airbnb/>
+          <SVG src='/svg/Airbnb.svg'/>
         </div>
         <div className="ml-auto sm:mx-auto py-4 lg:py-6">
-          <Figma/>
+          <SVG src='/svg/Figma.svg'/>
         </div>
         <div className="mr-auto sm:mx-auto py-4 lg:py-6">
-          <Community/>
+          <SVG src='/svg/Community.svg'/>
         </div>
         <div className="ml-auto sm:mx-auto py-4 lg:py-6">
-          <Affirm/>
+          <SVG src='/svg/Affirm.svg'/>
         </div>
       </div>
     </div>

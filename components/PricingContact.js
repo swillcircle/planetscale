@@ -12,9 +12,8 @@ const PricingContact = () => {
               <a className="text-center leading-none whitespace-nowrap font-medium rounded text-lg max-w-fit mx-3 my-3 py-3 px-6 cursor-pointer bg-purple-500 border-purple-500 hover:bg-purple-600 text-gray-50 transition button-box-shadow" href="#">
                 Contact sales
               </a>
-              <a className="text-center leading-none whitespace-nowrap font-medium rounded text-lg max-w-fit mx-3 my-3 py-3 px-6 cursor-pointer bg-transparent  border-purple-500 border-solid border-[1px]  text-gray-50 button-box-shadow hover:bg-gray-50 hover:text-purple-500 transition" href="#">
+              <a className="text-center leading-none whitespace-nowrap font-medium rounded text-lg max-w-fit mx-3 my-3 py-3 px-6 cursor-pointer bg-transparent  border-purple-500 border-solid border-[1px]  text-gray-50 button-box-shadow hover:bg-gray-50 hover:text-purple-500 transition after-arrow" href="#">
                 Get started
-                <svg className="inline mb-1 ml-2 arrow-hover transition-transform" width="8" height="8" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.919312 9.19995L4.15257 5.32004C4.30709 5.13462 4.30709 4.86528 4.15257 4.67986L0.919311 0.799952" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"></path></svg>
               </a>
             </div>
           </div>

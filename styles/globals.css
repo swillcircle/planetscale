@@ -34,7 +34,6 @@ a {
   font-family: 'Mandali', sans-serif;
 }
 
-
 .comment::before {
   content: "// ";
 }
@@ -92,8 +91,8 @@ a {
     blur(1.5px);
 }
 
-a:hover  .arrow-hover {
-  transform: translateX(4px);
+.after-arrow:hover::after {
+  transform: rotate(-45deg) translateX(2px) translateY(2px);
 }
 .transform-scale:hover {
   transform: scale(1.01);
@@ -101,4 +100,17 @@ a:hover  .arrow-hover {
 
 input::placeholder{
   color: var(--gray-050);
+}
+
+.after-arrow::after {
+  content: "";
+  border: solid currentcolor;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transition: transform .1s ease-in-out;
 }
