@@ -9,7 +9,7 @@ const TwoByTwo = () => {
         <div className="relative grid grid-cols-1 pb-48 lg:grid-cols-2 lg:pb-64 overflow-visible">
           <div className="relative order-2 lg:order-1 2xl:mr-32 overflow-visible">
             <div className="absolute z-10 hidden sm:block">
-              <SVG src='/svg/Deploybg.svg'/>
+              <SVG src='/svg/DeployBg.svg'/>
             </div>
             <div className="relative z-20 sm:mt-20 sm:ml-28 overflow-visible button-box-shadow">
               <SVG src='/svg/DeployFrt.svg'/>
