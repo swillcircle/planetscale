@@ -7,7 +7,7 @@ const Logosection = () => {
       <h3 className="mb-6 text-base font-normal text-center text-gray-400 heading-base">Trusted by</h3>
       <div className="grid items-center justify-center grid-cols-2 mx-auto gap-x-2 sm:px-10 lg:grid-cols-4 sm:gap-x-10 gap-y-10 text-gray-50">
         <div className="mr-auto sm:mx-auto py-4 lg:py-6">
-          <SVG src='/svg/Github.svg'/>
+          <SVG src='/svg/GitHub.svg'/>
         </div>
         <div className="ml-auto sm:mx-auto py-4 lg:py-6">
           <SVG src='/svg/NewRelic.svg'/>
